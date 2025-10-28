@@ -37,10 +37,10 @@ static void overlay_set(SDL_Scancode sc, bool pressed);
 static overlay_entry_t s_overlay[] = {
     { SDL_SCANCODE_ESCAPE,    "btn_MENU",   NULL, false },
 
-    { SDL_SCANCODE_E,         "btn_L",     NULL, false },
+    { SDL_SCANCODE_E,         "btn_L1",     NULL, false },
     { SDL_SCANCODE_TAB,       "btn_L2",     NULL, false },
 
-    { SDL_SCANCODE_T,         "btn_R",     NULL, false },
+    { SDL_SCANCODE_T,         "btn_R1",     NULL, false },
     { SDL_SCANCODE_BACKSPACE, "btn_R2",     NULL, false },
 
     { SDL_SCANCODE_RIGHT,     "btn_RIGHT",  NULL, false },

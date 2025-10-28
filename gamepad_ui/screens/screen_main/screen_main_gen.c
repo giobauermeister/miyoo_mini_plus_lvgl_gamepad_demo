@@ -66,15 +66,15 @@ lv_obj_t * screen_main_create(void)
     lv_obj_add_event_cb(btn_L2, on_btn_clicked_cb, LV_EVENT_PRESSED, NULL);
     lv_obj_add_event_cb(btn_L2, on_btn_clicked_cb, LV_EVENT_RELEASED, NULL);
     
-    lv_obj_t * btn_L = lv_image_create(lv_image_0);
-    lv_obj_set_name(btn_L, "btn_L");
-    lv_image_set_src(btn_L, img_L1_glow);
-    lv_obj_set_x(btn_L, 32);
-    lv_obj_set_y(btn_L, 28);
-    lv_obj_set_style_opa(btn_L, 0, 0);
-    lv_obj_set_flag(btn_L, LV_OBJ_FLAG_CLICKABLE, true);
-    lv_obj_add_event_cb(btn_L, on_btn_clicked_cb, LV_EVENT_PRESSED, NULL);
-    lv_obj_add_event_cb(btn_L, on_btn_clicked_cb, LV_EVENT_RELEASED, NULL);
+    lv_obj_t * btn_L1 = lv_image_create(lv_image_0);
+    lv_obj_set_name(btn_L1, "btn_L1");
+    lv_image_set_src(btn_L1, img_L1_glow);
+    lv_obj_set_x(btn_L1, 32);
+    lv_obj_set_y(btn_L1, 28);
+    lv_obj_set_style_opa(btn_L1, 0, 0);
+    lv_obj_set_flag(btn_L1, LV_OBJ_FLAG_CLICKABLE, true);
+    lv_obj_add_event_cb(btn_L1, on_btn_clicked_cb, LV_EVENT_PRESSED, NULL);
+    lv_obj_add_event_cb(btn_L1, on_btn_clicked_cb, LV_EVENT_RELEASED, NULL);
     
     lv_obj_t * btn_R2 = lv_image_create(lv_image_0);
     lv_obj_set_name(btn_R2, "btn_R2");
@@ -86,15 +86,15 @@ lv_obj_t * screen_main_create(void)
     lv_obj_add_event_cb(btn_R2, on_btn_clicked_cb, LV_EVENT_PRESSED, NULL);
     lv_obj_add_event_cb(btn_R2, on_btn_clicked_cb, LV_EVENT_RELEASED, NULL);
     
-    lv_obj_t * btn_R = lv_image_create(lv_image_0);
-    lv_obj_set_name(btn_R, "btn_R");
-    lv_image_set_src(btn_R, img_R1_glow);
-    lv_obj_set_x(btn_R, 509);
-    lv_obj_set_y(btn_R, 28);
-    lv_obj_set_style_opa(btn_R, 0, 0);
-    lv_obj_set_flag(btn_R, LV_OBJ_FLAG_CLICKABLE, true);
-    lv_obj_add_event_cb(btn_R, on_btn_clicked_cb, LV_EVENT_PRESSED, NULL);
-    lv_obj_add_event_cb(btn_R, on_btn_clicked_cb, LV_EVENT_RELEASED, NULL);
+    lv_obj_t * btn_R1 = lv_image_create(lv_image_0);
+    lv_obj_set_name(btn_R1, "btn_R1");
+    lv_image_set_src(btn_R1, img_R1_glow);
+    lv_obj_set_x(btn_R1, 509);
+    lv_obj_set_y(btn_R1, 28);
+    lv_obj_set_style_opa(btn_R1, 0, 0);
+    lv_obj_set_flag(btn_R1, LV_OBJ_FLAG_CLICKABLE, true);
+    lv_obj_add_event_cb(btn_R1, on_btn_clicked_cb, LV_EVENT_PRESSED, NULL);
+    lv_obj_add_event_cb(btn_R1, on_btn_clicked_cb, LV_EVENT_RELEASED, NULL);
     
     lv_obj_t * btn_RIGHT = lv_image_create(lv_image_0);
     lv_obj_set_name(btn_RIGHT, "btn_RIGHT");
