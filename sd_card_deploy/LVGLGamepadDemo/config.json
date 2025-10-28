@@ -1,0 +1,6 @@
+{
+	"label": "LVGL Gamepad Demo",
+	"icon": "/mnt/SDCARD/App/LVGLWidgetsDemo/Icons/lvgl_logo.png",
+	"launch": "launch.sh",
+	"description": "LVGL Gamepad App"
+}

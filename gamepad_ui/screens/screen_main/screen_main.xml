@@ -1,0 +1,64 @@
+<screen>
+	<view extends="lv_image" src="img_background">
+		<lv_image name="btn_MENU" src="img_lvgl_glow" x="277" y="127" style_opa="0" clickable="true">
+			<event_cb callback="on_btn_clicked_cb" trigger="pressed" />
+			<event_cb callback="on_btn_clicked_cb" trigger="released" />
+		</lv_image>
+		<lv_image name="btn_L2" src="img_L2_glow" x="105" y="7" style_opa="0" clickable="true">
+			<event_cb callback="on_btn_clicked_cb" trigger="pressed" />
+			<event_cb callback="on_btn_clicked_cb" trigger="released" />
+		</lv_image>
+		<lv_image name="btn_L" src="img_L1_glow" x="32" y="28" style_opa="0" clickable="true">
+			<event_cb callback="on_btn_clicked_cb" trigger="pressed" />
+			<event_cb callback="on_btn_clicked_cb" trigger="released" />
+		</lv_image>
+		<lv_image name="btn_R2" src="img_R2_glow" x="423" y="7" style_opa="0" clickable="true">
+			<event_cb callback="on_btn_clicked_cb" trigger="pressed" />
+			<event_cb callback="on_btn_clicked_cb" trigger="released" />
+		</lv_image>
+		<lv_image name="btn_R" src="img_R1_glow" x="509" y="28" style_opa="0" clickable="true">
+			<event_cb callback="on_btn_clicked_cb" trigger="pressed" />
+			<event_cb callback="on_btn_clicked_cb" trigger="released" />
+		</lv_image>
+		<lv_image name="btn_RIGHT" src="img_arrow_glow" x="174" y="253" style_opa="0" clickable="true">
+			<event_cb callback="on_btn_clicked_cb" trigger="pressed" />
+			<event_cb callback="on_btn_clicked_cb" trigger="released" />
+		</lv_image>
+		<lv_image name="btn_UP" src="img_arrow_glow" x="106" y="193" rotation="1500" style_opa="0" clickable="true">
+			<event_cb callback="on_btn_clicked_cb" trigger="pressed" />
+			<event_cb callback="on_btn_clicked_cb" trigger="released" />
+		</lv_image>
+		<lv_image name="btn_LEFT" src="img_arrow_glow" x="44" y="251" rotation="1800" style_opa="0" clickable="true">
+			<event_cb callback="on_btn_clicked_cb" trigger="pressed" />
+			<event_cb callback="on_btn_clicked_cb" trigger="released" />
+		</lv_image>
+		<lv_image name="btn_DOWN" src="img_arrow_glow" x="106" y="312" rotation="2100" style_opa="0" clickable="true">
+			<event_cb callback="on_btn_clicked_cb" trigger="pressed" />
+			<event_cb callback="on_btn_clicked_cb" trigger="released" />
+		</lv_image>
+		<lv_image name="btn_SELECT" src="img_select_start_glow" x="244" y="376" style_opa="0" clickable="true">
+			<event_cb callback="on_btn_clicked_cb" trigger="pressed" />
+			<event_cb callback="on_btn_clicked_cb" trigger="released" />
+		</lv_image>
+		<lv_image name="btn_START" src="img_select_start_glow" x="309" y="376" style_opa="0" clickable="true">
+			<event_cb callback="on_btn_clicked_cb" trigger="pressed" />
+			<event_cb callback="on_btn_clicked_cb" trigger="released" />
+		</lv_image>
+		<lv_image name="btn_Y" src="img_Y_glow" x="371" y="246" style_opa="0" clickable="true">
+			<event_cb callback="on_btn_clicked_cb" trigger="pressed" />
+			<event_cb callback="on_btn_clicked_cb" trigger="released" />
+		</lv_image>
+		<lv_image name="btn_X" src="img_X_glow" x="437" y="180" style_opa="0" clickable="true">
+			<event_cb callback="on_btn_clicked_cb" trigger="pressed" />
+			<event_cb callback="on_btn_clicked_cb" trigger="released" />
+		</lv_image>
+		<lv_image name="btn_A" src="img_A_glow" x="502" y="245" style_opa="0" clickable="true">
+			<event_cb callback="on_btn_clicked_cb" trigger="pressed" />
+			<event_cb callback="on_btn_clicked_cb" trigger="released" />
+		</lv_image>
+		<lv_image name="btn_B" src="img_B_glow" x="437" y="311" style_opa="0" clickable="true">
+			<event_cb callback="on_btn_clicked_cb" trigger="pressed" />
+			<event_cb callback="on_btn_clicked_cb" trigger="released" />
+		</lv_image>
+	</view>
+</screen>

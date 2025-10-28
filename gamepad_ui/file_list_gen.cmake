@@ -1,0 +1,18 @@
+list(
+  APPEND
+  PROJECT_SOURCES
+  ${CMAKE_CURRENT_LIST_DIR}/screens/screen_main/screen_main_gen.c
+  ${CMAKE_CURRENT_LIST_DIR}/gamepad_ui_gen.c
+  ${CMAKE_CURRENT_LIST_DIR}/gamepad_ui.c
+  ${CMAKE_CURRENT_LIST_DIR}/images/img_background_data.c
+  ${CMAKE_CURRENT_LIST_DIR}/images/img_lvgl_glow_data.c
+  ${CMAKE_CURRENT_LIST_DIR}/images/img_arrow_glow_data.c
+  ${CMAKE_CURRENT_LIST_DIR}/images/img_select_start_glow_data.c
+  ${CMAKE_CURRENT_LIST_DIR}/images/img_A_glow_data.c
+  ${CMAKE_CURRENT_LIST_DIR}/images/img_B_glow_data.c
+  ${CMAKE_CURRENT_LIST_DIR}/images/img_X_glow_data.c
+  ${CMAKE_CURRENT_LIST_DIR}/images/img_Y_glow_data.c
+  ${CMAKE_CURRENT_LIST_DIR}/images/img_R1_glow_data.c
+  ${CMAKE_CURRENT_LIST_DIR}/images/img_R2_glow_data.c
+  ${CMAKE_CURRENT_LIST_DIR}/images/img_L1_glow_data.c
+  ${CMAKE_CURRENT_LIST_DIR}/images/img_L2_glow_data.c)

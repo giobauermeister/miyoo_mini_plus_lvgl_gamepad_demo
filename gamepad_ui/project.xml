@@ -1,0 +1,7 @@
+<project name="gamepad_ui">
+	<targets>
+		<target name="target1">
+			<display width="640" height="480" />
+		</target>
+	</targets>
+</project>

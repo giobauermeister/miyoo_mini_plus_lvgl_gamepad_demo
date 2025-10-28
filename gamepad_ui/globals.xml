@@ -1,0 +1,36 @@
+<globals>
+	<api>
+		<!-- Add <enumdefs> here -->
+	</api>
+
+	<consts>
+		<!-- Add <px>, <int>, <color> etc here -->
+	</consts>
+
+	<styles>
+		<!-- Add <style> tags here -->
+	</styles>
+
+	<subjects>
+		<!-- Add <int>, <string>, or <float> subjects here -->
+	</subjects>
+
+	<images>
+		<data name="img_background" src_path="images/img_background.png" color_format="rgb565" />
+		<data name="img_lvgl_glow" src_path="images/img_lvgl_glow.png" color_format="rgb565a8" />
+		<data name="img_arrow_glow" src_path="images/img_arrow_glow.png" color_format="rgb565a8" />
+		<data name="img_select_start_glow" src_path="images/img_select_start_glow.png" color_format="rgb565a8" />
+		<data name="img_A_glow" src_path="images/img_A_glow.png" color_format="rgb565a8" />
+		<data name="img_B_glow" src_path="images/img_B_glow.png" color_format="rgb565a8" />
+		<data name="img_X_glow" src_path="images/img_X_glow.png" color_format="rgb565a8" />
+		<data name="img_Y_glow" src_path="images/img_Y_glow.png" color_format="rgb565a8" />
+		<data name="img_R1_glow" src_path="images/img_R1_glow.png" color_format="rgb565a8" />
+		<data name="img_R2_glow" src_path="images/img_R2_glow.png" color_format="rgb565a8" />
+		<data name="img_L1_glow" src_path="images/img_L1_glow.png" color_format="rgb565a8" />
+		<data name="img_L2_glow" src_path="images/img_L2_glow.png" color_format="rgb565a8" />
+	</images>
+
+	<fonts>
+		<!-- Add <bin> , <tiny_ttf>, <freetype> tags here -->
+	</fonts>
+</globals>
