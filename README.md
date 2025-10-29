@@ -1,5 +1,6 @@
 # Miyoo Mini Plus LVGL Gamepad Example
 
+![alt text](repo_assets/device.gif)
 ![alt text](repo_assets/lvgl_pro_ui.gif)
 
 This example runs an LVGL UI using SDL backend on the Miyoo Mini Plus handheld game console and also reads button events using SDL keyboard handling.
